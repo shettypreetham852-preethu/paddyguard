@@ -1,0 +1,176 @@
+{
+  "diseases": [
+    {
+      "id": "bacterial_leaf_blight",
+      "name": "Bacterial Leaf Blight",
+      "scientific_name": "Xanthomonas oryzae pv. oryzae",
+      "pathogen_type": "Bacterial",
+      "severity_potential": "High",
+      "favorable_conditions": "High humidity (70-90%), temperatures between 25-34°C, strong winds and continuous rain.",
+      "short_desc": "Water-soaked lesions on leaf tips and margins that turn yellowish-white with wavy margins, leading to rapid blighting.",
+      "symptoms": [
+        "Water-soaked stripes along leaf margins starting from tips",
+        "Lesions turn yellowish-white with wavy edges as they enlarge",
+        "Milky or amber bacterial ooze droplets on leaves during early morning",
+        "Leaves wilt, roll, and turn grayish-green ('Kresek' phase in seedlings)",
+        "Severe yield reduction (up to 50-70%) during tillering to panicle stage"
+      ],
+      "causes": [
+        "Infection by bacteria Xanthomonas oryzae through leaf wounds or hydathodes",
+        "Excessive nitrogenous fertilization without balanced potassium",
+        "Deep standing water in nurseries and fields",
+        "Contaminated irrigation channels and infected crop stubble"
+      ],
+      "spread_factors": "Wind-driven rain, irrigation runoff, infected plant debris, volunteer rice plants, and weed hosts (e.g., Leersia hexandra).",
+      "seasons": ["Kharif (Monsoon peak)", "Late Rabi"],
+      "resistant_varieties": ["IR64", "Swarna Sub-1", "Improved Samba Mahsuri", "Ajay", "Rajendra Sweta"],
+      "image_url": "/samples/bacterial_blight.jpg"
+    },
+    {
+      "id": "leaf_blast",
+      "name": "Leaf Blast",
+      "scientific_name": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "pathogen_type": "Fungal",
+      "severity_potential": "High",
+      "favorable_conditions": "Night temperatures 17-23°C, relative humidity >90%, prolonged leaf wetness (>10 hours), and heavy dew.",
+      "short_desc": "Spindle-shaped or diamond-shaped lesions with gray or whitish centers and dark reddish-brown borders.",
+      "symptoms": [
+        "Eye-shaped or diamond-shaped elliptical spots on leaves",
+        "Lesion center turns ash-gray or white with brownish or purple margin",
+        "Spots coalesce, causing entire leaf blades to wither and dry up ('blast burn')",
+        "Can attack collar, neck of panicles ('neck blast'), causing completely empty whiteheads",
+        "Severe field lodging and complete crop devastation if untreated"
+      ],
+      "causes": [
+        "Airborne fungal spores (conidia) produced in millions on infected leaves",
+        "Heavy applications of synthetic nitrogen fertilizer",
+        "Drought stress followed by sudden wet cool spells",
+        "High planting density resulting in dense, microclimate canopy"
+      ],
+      "spread_factors": "Air currents, wind, dew drops, infected crop residue, susceptible wild grasses.",
+      "seasons": ["Late Kharif", "Early Rabi (Cool nights with dew)"],
+      "resistant_varieties": ["Pusa 1609", "CR Dhan 310", "Simhapuri", "TKM 9", "Swarnaprabha"],
+      "image_url": "/samples/leaf_blast.jpg"
+    },
+    {
+      "id": "brown_spot",
+      "name": "Brown Spot",
+      "scientific_name": "Bipolaris oryzae (Cochliobolus miyabeanus)",
+      "pathogen_type": "Fungal",
+      "severity_potential": "Medium",
+      "favorable_conditions": "Nutrient-deficient soils (especially low silicon, potassium, zinc), temperature 20-30°C, and prolonged cloudiness.",
+      "short_desc": "Circular to oval dark brown lesions with yellow halo, heavily linked to poor soil nutrition and drought stress.",
+      "symptoms": [
+        "Small, circular to oval dark brown spots on leaves and glumes",
+        "Larger spots develop a gray or light brown center surrounded by yellow chlorotic halo",
+        "Infected grains become discolored, spotted, and shriveled ('pecky rice')",
+        "Severe seedling blight leading to poor plant stand in dry seedbeds"
+      ],
+      "causes": [
+        "Associated with poor soil fertility, zinc deficiency, drought stress, or silicon deficiency",
+        "Fungal pathogen Bipolaris oryzae surviving in seed coat and stubble",
+        "Nutrient imbalance and light sandy soils lacking organic matter"
+      ],
+      "spread_factors": "Infected seeds, airborne spores, contaminated crop residue, water stress.",
+      "seasons": ["Kharif", "Rabi (especially rainfed and upland ecology)"],
+      "resistant_varieties": ["IR36", "Rasi", "CR 1009", "Vandana", "Sahbhagi Dhan"],
+      "image_url": "/samples/brown_spot.jpg"
+    },
+    {
+      "id": "leaf_smut",
+      "name": "Leaf Smut",
+      "scientific_name": "Entyloma oryzae",
+      "pathogen_type": "Fungal",
+      "severity_potential": "Low",
+      "favorable_conditions": "High humidity, mature crop stage, moderate temperature (24-28°C), and high nitrogen.",
+      "short_desc": "Small, angular black spots slightly raised on both leaf surfaces, mostly visible as the crop matures.",
+      "symptoms": [
+        "Small, slightly raised angular black spots (sori) scattered across leaf blades",
+        "Spots are covered by the leaf epidermis and do not rupture easily",
+        "Affected leaves turn prematurely yellow and dry up from tips",
+        "Typically appears late in the growing season during milky to grain maturity stages"
+      ],
+      "causes": [
+        "Entyloma oryzae fungus surviving in soil and old crop debris",
+        "Late season high humidity and shaded plant canopies",
+        "Over-use of urea late in the vegetative phase"
+      ],
+      "spread_factors": "Wind-borne teliospores, irrigation wash, infected straw.",
+      "seasons": ["Late Kharif (Maturity stage)"],
+      "resistant_varieties": ["Pusa Basmati 1121", "MTU 1010", "PR 126"],
+      "image_url": "/samples/leaf_smut.jpg"
+    },
+    {
+      "id": "tungro",
+      "name": "Tungro",
+      "scientific_name": "Rice Tungro Bacilliform Virus (RTBV) + RTSV",
+      "pathogen_type": "Viral (Vector: Green Leafhopper)",
+      "severity_potential": "High",
+      "favorable_conditions": "Abundance of Green Leafhopper (Nephotettix virescens), temperature 25-30°C, presence of stubbles from previous infected crop.",
+      "short_desc": "Severe stunting, yellow-orange leaf discoloration, reduced tillering, delayed flowering, and sterile panicles.",
+      "symptoms": [
+        "Severe stunting of plant height and drastically reduced tillering",
+        "Leaves turn yellow to vivid orange-yellow starting from the tips down the margins",
+        "Young leaves mottled or with pale green to white interveinal stripes",
+        "Panicles small, poorly exerted, with high proportion of empty grains",
+        "Stunted patches visible randomly across the field"
+      ],
+      "causes": [
+        "Co-infection of Rice Tungro Bacilliform Virus (RTBV) and Rice Tungro Spherical Virus (RTSV)",
+        "Transmitted non-persistently by the Green Leafhopper (Nephotettix virescens)",
+        "Continuous staggered planting creating a non-stop green bridge for leafhoppers"
+      ],
+      "spread_factors": "Green leafhopper vectors hopping from plant to plant, weed hosts, overlapping crop seasons.",
+      "seasons": ["Kharif", "Summer / Pre-Kharif"],
+      "resistant_varieties": ["IR64", "Vikramarya", "Nidhi", "Bharani", "Suraksha"],
+      "image_url": "/samples/tungro.jpg"
+    },
+    {
+      "id": "sheath_blight",
+      "name": "Sheath Blight",
+      "scientific_name": "Rhizoctonia solani",
+      "pathogen_type": "Fungal",
+      "severity_potential": "High",
+      "favorable_conditions": "High relative humidity (85-100%), temperature 28-32°C, dense foliage canopy, and heavy nitrogen application.",
+      "short_desc": "Oval or snake-skin lesions on leaf sheaths near water line that expand upward to leaf blades, causing lodging.",
+      "symptoms": [
+        "Initial lesions on leaf sheaths just above the water level",
+        "Spots are greenish-gray, oval or irregular with distinctive brown to dark purple margins",
+        "Lesions coalesce, creating a banded or 'snake-skin' appearance along the sheath",
+        "Infection travels upward to upper leaves and panicles in dense stands",
+        "Tillers die, panicles fail to fill, and severe lodging occurs"
+      ],
+      "causes": [
+        "Soil-borne sclerotia of Rhizoctonia solani that float on irrigation water",
+        "Excessive plant population (>50 hills/m²) and high nitrogen doses (>150 kg N/ha)",
+        "Stagnant water and humid dense canopy microclimate"
+      ],
+      "spread_factors": "Floating sclerotia in irrigation water, vegetative mycelial growth across adjacent tillers, infested soil.",
+      "seasons": ["Kharif (Tillering to heading stage)"],
+      "resistant_varieties": ["Pankaj", "Swarna", "Tetep (donor)", "IR 20", "ADT 38"],
+      "image_url": "/samples/sheath_blight.jpg"
+    },
+    {
+      "id": "healthy",
+      "name": "Healthy Paddy Leaf",
+      "scientific_name": "Oryza sativa (Disease-free)",
+      "pathogen_type": "None",
+      "severity_potential": "None",
+      "favorable_conditions": "Balanced nutrient management, good irrigation drainage, clean seed, and periodic field monitoring.",
+      "short_desc": "Vibrant emerald green leaves with uniform coloration, intact smooth margins, strong erect stems, and no visible lesions.",
+      "symptoms": [
+        "Uniform, vibrant green or dark green leaf color",
+        "Clean, intact margins without necrotic spots or yellow striping",
+        "Vigorous tillering and healthy white root system",
+        "Erect leaf canopy maximizing sunlight interception"
+      ],
+      "causes": [
+        "Optimal crop health, balanced N-P-K-Zn-Si nutrition, and proactive organic prophylaxis"
+      ],
+      "spread_factors": "None",
+      "seasons": ["All cropping seasons"],
+      "resistant_varieties": ["All certified high-yielding paddy varieties"],
+      "image_url": "/samples/healthy.jpg"
+    }
+  ]
+}

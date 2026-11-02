@@ -1,0 +1,49 @@
+{
+  "varieties": [
+    { "id": "ir64", "name": "IR 64", "potential_yield": 6.2, "duration_days": 120, "grain_type": "Medium Slender", "blast_resistant": true },
+    { "id": "swarna", "name": "Swarna (MTU 7029)", "potential_yield": 6.8, "duration_days": 145, "grain_type": "Short Bold", "blast_resistant": false },
+    { "id": "pusa_basmati_1121", "name": "Pusa Basmati 1121", "potential_yield": 4.8, "duration_days": 140, "grain_type": "Extra Long Slender", "blast_resistant": false },
+    { "id": "sona_masuri", "name": "Sona Masuri (BPT 5204)", "potential_yield": 5.5, "duration_days": 140, "grain_type": "Medium Slender", "blast_resistant": false },
+    { "id": "pr126", "name": "PR 126", "potential_yield": 7.2, "duration_days": 123, "grain_type": "Long Slender", "blast_resistant": true },
+    { "id": "samba_mahsuri", "name": "Improved Samba Mahsuri", "potential_yield": 6.0, "duration_days": 135, "grain_type": "Fine", "blast_resistant": true },
+    { "id": "cr_dhan_310", "name": "CR Dhan 310 (High Protein)", "potential_yield": 5.0, "duration_days": 125, "grain_type": "Medium", "blast_resistant": true }
+  ],
+  "soils": [
+    { "id": "alluvial", "name": "Alluvial Soil", "fertility_factor": 1.15, "water_retention": "High", "optimal_ph": "6.5 - 7.5" },
+    { "id": "clay_loam", "name": "Clay Loam Soil", "fertility_factor": 1.10, "water_retention": "Very High", "optimal_ph": "6.0 - 7.2" },
+    { "id": "silt_loam", "name": "Silt Loam", "fertility_factor": 1.05, "water_retention": "Medium-High", "optimal_ph": "6.0 - 7.0" },
+    { "id": "red_loam", "name": "Red Loam", "fertility_factor": 0.92, "water_retention": "Moderate", "optimal_ph": "5.5 - 6.5" },
+    { "id": "sandy_loam", "name": "Sandy Loam", "fertility_factor": 0.85, "water_retention": "Low", "optimal_ph": "5.5 - 6.5" },
+    { "id": "laterite", "name": "Laterite Soil", "fertility_factor": 0.80, "water_retention": "Low", "optimal_ph": "5.0 - 6.0" }
+  ],
+  "irrigation_types": [
+    { "id": "canal", "name": "Canal Irrigated", "factor": 1.08 },
+    { "id": "borewell", "name": "Tubewell / Borewell", "factor": 1.05 },
+    { "id": "awd", "name": "Alternate Wetting & Drying (AWD)", "factor": 1.12 },
+    { "id": "rainfed_favorable", "name": "Rainfed (Lowland Favorable)", "factor": 0.92 },
+    { "id": "rainfed_upland", "name": "Rainfed (Upland Vulnerable)", "factor": 0.72 }
+  ],
+  "regional_benchmarks": {
+    "punjab_haryana": { "name": "North Indo-Gangetic (Punjab/Haryana)", "average_yield": 6.5, "unit": "tons/ha" },
+    "west_bengal_assam": { "name": "Eastern Plains (WB / Assam / Odisha)", "average_yield": 4.6, "unit": "tons/ha" },
+    "andhra_telangana": { "name": "Southern Delta (AP / Telangana / TN)", "average_yield": 5.4, "unit": "tons/ha" },
+    "central_india": { "name": "Central Plateau (CG / MP)", "average_yield": 3.8, "unit": "tons/ha" },
+    "national_average": { "name": "National Average Benchmark", "average_yield": 4.25, "unit": "tons/ha" }
+  },
+  "disease_loss_coefficients": {
+    "healthy": { "Low": 0.0, "Medium": 0.0, "High": 0.0 },
+    "leaf_smut": { "Low": 0.02, "Medium": 0.05, "High": 0.09 },
+    "brown_spot": { "Low": 0.06, "Medium": 0.14, "High": 0.28 },
+    "sheath_blight": { "Low": 0.08, "Medium": 0.22, "High": 0.42 },
+    "bacterial_leaf_blight": { "Low": 0.10, "Medium": 0.26, "High": 0.55 },
+    "leaf_blast": { "Low": 0.12, "Medium": 0.32, "High": 0.65 },
+    "tungro": { "Low": 0.15, "Medium": 0.45, "High": 0.85 }
+  },
+  "economic_benchmarks": {
+    "msp_paddy_common": 2300,
+    "msp_paddy_grade_a": 2320,
+    "basmati_open_market_avg": 3800,
+    "currency_symbol": "₹",
+    "currency_code": "INR"
+  }
+}

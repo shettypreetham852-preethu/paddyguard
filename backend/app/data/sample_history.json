@@ -1,0 +1,93 @@
+[
+  {
+    "id": "SCAN-2026-0814",
+    "timestamp": "2026-10-28T09:42:00Z",
+    "disease_id": "leaf_blast",
+    "disease_name": "Leaf Blast",
+    "confidence": 96.8,
+    "severity": "Medium",
+    "area_acres": 4.5,
+    "variety": "Swarna (MTU 7029)",
+    "location": "Plot B-14, East Mandi",
+    "status": "Treatment Applied",
+    "thumbnail": "/samples/leaf_blast.jpg"
+  },
+  {
+    "id": "SCAN-2026-0813",
+    "timestamp": "2026-10-27T14:15:00Z",
+    "disease_id": "bacterial_leaf_blight",
+    "disease_name": "Bacterial Leaf Blight",
+    "confidence": 94.2,
+    "severity": "High",
+    "area_acres": 6.0,
+    "variety": "IR 64",
+    "location": "North Canal Sector",
+    "status": "Drainage Scheduled",
+    "thumbnail": "/samples/bacterial_blight.jpg"
+  },
+  {
+    "id": "SCAN-2026-0812",
+    "timestamp": "2026-10-25T11:30:00Z",
+    "disease_id": "healthy",
+    "disease_name": "Healthy Paddy Leaf",
+    "confidence": 99.1,
+    "severity": "None",
+    "area_acres": 12.0,
+    "variety": "PR 126",
+    "location": "South Green Field",
+    "status": "Optimal Health",
+    "thumbnail": "/samples/healthy.jpg"
+  },
+  {
+    "id": "SCAN-2026-0811",
+    "timestamp": "2026-10-23T16:05:00Z",
+    "disease_id": "brown_spot",
+    "disease_name": "Brown Spot",
+    "confidence": 92.4,
+    "severity": "Low",
+    "area_acres": 3.2,
+    "variety": "Sona Masuri",
+    "location": "Upland Ridge Block",
+    "status": "Zinc Spray Done",
+    "thumbnail": "/samples/brown_spot.jpg"
+  },
+  {
+    "id": "SCAN-2026-0810",
+    "timestamp": "2026-10-21T08:50:00Z",
+    "disease_id": "sheath_blight",
+    "disease_name": "Sheath Blight",
+    "confidence": 95.7,
+    "severity": "Medium",
+    "area_acres": 5.5,
+    "variety": "Pusa Basmati 1121",
+    "location": "Central Lowland",
+    "status": "Validamycin Applied",
+    "thumbnail": "/samples/sheath_blight.jpg"
+  },
+  {
+    "id": "SCAN-2026-0809",
+    "timestamp": "2026-10-18T10:12:00Z",
+    "disease_id": "tungro",
+    "disease_name": "Tungro",
+    "confidence": 91.0,
+    "severity": "High",
+    "area_acres": 2.8,
+    "variety": "Swarna",
+    "location": "West Boundary Nursery",
+    "status": "Vector Rogued",
+    "thumbnail": "/samples/tungro.jpg"
+  },
+  {
+    "id": "SCAN-2026-0808",
+    "timestamp": "2026-10-15T15:20:00Z",
+    "disease_id": "healthy",
+    "disease_name": "Healthy Paddy Leaf",
+    "confidence": 98.6,
+    "severity": "None",
+    "area_acres": 8.0,
+    "variety": "Improved Samba Mahsuri",
+    "location": "Main Terrace 3",
+    "status": "Optimal Health",
+    "thumbnail": "/samples/healthy.jpg"
+  }
+]
